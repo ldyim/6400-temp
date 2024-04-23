@@ -1,0 +1,54 @@
+Script started on 2024-04-11 03:19:46+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="106" LINES="57"]
+]0;JodieYCSBAccess@ycsb: ~/ycsb-0.17.0[01;32mJodieYCSBAccess@ycsb[00m:[01;34m~/ycsb-0.17.0[00m$ ./bin/ycsb run cassandra-cql -P workloads/workloade -p hosts="10.142.0.2" -p port=9042
+java -cp /home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/conf:/home/JodieYCSBAccess/ycsb-0.17.0/conf:/home/JodieYCSBAccess/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/JodieYCSBAccess/ycsb-0.17.0/lib/core-0.17.0.jar:/home/JodieYCSBAccess/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/JodieYCSBAccess/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/JodieYCSBAccess/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/slf4j-api-1.7.25.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/netty-handler-4.0.33.Final.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/guava-16.0.1.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/netty-codec-4.0.33.Final.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/netty-buffer-4.0.33.Final.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/cassandra-binding-0.17.0.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/metrics-core-3.1.2.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/netty-transport-4.0.33.Final.jar:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/cassandra-driver-core-3.0.0.jar site.ycsb.Client -db site.ycsb.db.CassandraCQLClient -P workloads/workloade -p hosts=10.142.0.2 -p port=9042 -t
+Command line: -db site.ycsb.db.CassandraCQLClient -P workloads/workloade -p hosts=10.142.0.2 -p port=9042 -t
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/JodieYCSBAccess/ycsb-0.17.0/cassandra-binding/lib/netty-common-4.0.33.Final.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Apr 11, 2024 3:19:53 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+[OVERALL], RunTime(ms), 7868
+[OVERALL], Throughput(ops/sec), 127.09710218607016
+[TOTAL_GCS_G1_Young_Generation], Count, 11
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 92
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 1.1692933401118455
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 11
+[TOTAL_GC_TIME], Time(ms), 92
+[TOTAL_GC_TIME_%], Time(%), 1.1692933401118455
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2235392.0
+[CLEANUP], MinLatency(us), 2234368
+[CLEANUP], MaxLatency(us), 2236415
+[CLEANUP], 95thPercentileLatency(us), 2236415
+[CLEANUP], 99thPercentileLatency(us), 2236415
+[INSERT], Operations, 56
+[INSERT], AverageLatency(us), 2669.035714285714
+[INSERT], MinLatency(us), 1257
+[INSERT], MaxLatency(us), 9815
+[INSERT], 95thPercentileLatency(us), 5483
+[INSERT], 99thPercentileLatency(us), 8887
+[INSERT], Return=OK, 56
+[SCAN], Operations, 944
+[SCAN], AverageLatency(us), 4555.127118644068
+[SCAN], MinLatency(us), 1071
+[SCAN], MaxLatency(us), 39103
+[SCAN], 95thPercentileLatency(us), 8375
+[SCAN], 99thPercentileLatency(us), 13743
+[SCAN], Return=OK, 944
+]0;JodieYCSBAccess@ycsb: ~/ycsb-0.17.0[01;32mJodieYCSBAccess@ycsb[00m:[01;34m~/ycsb-0.17.0[00m$ exit
+exit
+
+Script done on 2024-04-11 03:20:02+00:00 [COMMAND_EXIT_CODE="0"]
