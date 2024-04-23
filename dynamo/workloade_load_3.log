@@ -1,0 +1,33 @@
+1    [Thread-1] INFO  site.ycsb.db.DynamoDBClient  -dynamodb connection created with http://dynamodb.us-east-2.amazonaws.com
+5859 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: QDFB260E1M8MF296KFL3TT0LTBVV4KQNSO5AEMVJF66Q9ASUAAJG)
+[OVERALL], RunTime(ms), 21275
+[OVERALL], Throughput(ops/sec), 47.00352526439483
+[TOTAL_GCS_Copy], Count, 28
+[TOTAL_GC_TIME_Copy], Time(ms), 46
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.21621621621621623
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 28
+[TOTAL_GC_TIME], Time(ms), 46
+[TOTAL_GC_TIME_%], Time(%), 0.21621621621621623
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2.0
+[CLEANUP], MinLatency(us), 2
+[CLEANUP], MaxLatency(us), 2
+[CLEANUP], 95thPercentileLatency(us), 2
+[CLEANUP], 99thPercentileLatency(us), 2
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 15135.257
+[INSERT], MinLatency(us), 4042
+[INSERT], MaxLatency(us), 3975167
+[INSERT], 95thPercentileLatency(us), 8527
+[INSERT], 99thPercentileLatency(us), 12143
+[INSERT], Return=OK, 1000
+[INSERT], Return=ERROR, 1
+[INSERT-FAILED], Operations, 1
+[INSERT-FAILED], AverageLatency(us), 3871744.0
+[INSERT-FAILED], MinLatency(us), 3870720
+[INSERT-FAILED], MaxLatency(us), 3872767
+[INSERT-FAILED], 95thPercentileLatency(us), 3872767
+[INSERT-FAILED], 99thPercentileLatency(us), 3872767

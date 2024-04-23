@@ -1,0 +1,35 @@
+0    [Thread-1] INFO  site.ycsb.db.DynamoDBClient  -dynamodb connection created with http://dynamodb.us-east-2.amazonaws.com
+4998 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: J1G3AAAO6ASA44C3IRJL296R8NVV4KQNSO5AEMVJF66Q9ASUAAJG)
+144423 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: ESCLM20I7LEK540D3DL91HBRQVVV4KQNSO5AEMVJF66Q9ASUAAJG)
+166269 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: C9IQMLSAE52VJTIMOSO8K96C3RVV4KQNSO5AEMVJF66Q9ASUAAJG)
+[OVERALL], RunTime(ms), 464945
+[OVERALL], Throughput(ops/sec), 2.15079202916474
+[TOTAL_GCS_Copy], Count, 32
+[TOTAL_GC_TIME_Copy], Time(ms), 57
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.012259514566239017
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 32
+[TOTAL_GC_TIME], Time(ms), 57
+[TOTAL_GC_TIME_%], Time(%), 0.012259514566239017
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2.0
+[CLEANUP], MinLatency(us), 2
+[CLEANUP], MaxLatency(us), 2
+[CLEANUP], 95thPercentileLatency(us), 2
+[CLEANUP], 99thPercentileLatency(us), 2
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 449121.256
+[INSERT], MinLatency(us), 5024
+[INSERT], MaxLatency(us), 4354047
+[INSERT], 95thPercentileLatency(us), 3942399
+[INSERT], 99thPercentileLatency(us), 4175871
+[INSERT], Return=OK, 1000
+[INSERT], Return=ERROR, 3
+[INSERT-FAILED], Operations, 3
+[INSERT-FAILED], AverageLatency(us), 3761152.0
+[INSERT-FAILED], MinLatency(us), 3678208
+[INSERT-FAILED], MaxLatency(us), 3811327
+[INSERT-FAILED], 95thPercentileLatency(us), 3811327
+[INSERT-FAILED], 99thPercentileLatency(us), 3811327

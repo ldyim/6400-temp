@@ -1,0 +1,25 @@
+0    [Thread-1] INFO  site.ycsb.db.DynamoDBClient  -dynamodb connection created with http://dynamodb.us-east-2.amazonaws.com
+[OVERALL], RunTime(ms), 7308
+[OVERALL], Throughput(ops/sec), 136.83634373289544
+[TOTAL_GCS_Copy], Count, 27
+[TOTAL_GC_TIME_Copy], Time(ms), 45
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.6157635467980296
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 27
+[TOTAL_GC_TIME], Time(ms), 45
+[TOTAL_GC_TIME_%], Time(%), 0.6157635467980296
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2.0
+[CLEANUP], MinLatency(us), 2
+[CLEANUP], MaxLatency(us), 2
+[CLEANUP], 95thPercentileLatency(us), 2
+[CLEANUP], 99thPercentileLatency(us), 2
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 6051.768
+[INSERT], MinLatency(us), 4060
+[INSERT], MaxLatency(us), 287999
+[INSERT], 95thPercentileLatency(us), 14271
+[INSERT], 99thPercentileLatency(us), 18831
+[INSERT], Return=OK, 1000

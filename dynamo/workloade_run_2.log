@@ -1,0 +1,46 @@
+0    [Thread-1] INFO  site.ycsb.db.DynamoDBClient  -dynamodb connection created with http://dynamodb.us-east-2.amazonaws.com
+6176 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: J57NV12GREK95BOR8UQGE8HB43VV4KQNSO5AEMVJF66Q9ASUAAJG)
+24190 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: ST1TM0PJPUDDOUGQLFM2FDKF3RVV4KQNSO5AEMVJF66Q9ASUAAJG)
+58654 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: RIS5FENM3FPDDQM0VF9MLA2ES7VV4KQNSO5AEMVJF66Q9ASUAAJG)
+70095 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: HS66CR6U1MV23D600AE6Q8VUCVVV4KQNSO5AEMVJF66Q9ASUAAJG)
+105844 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: 307V41UOEHCKN1OJTVTQ51IVJBVV4KQNSO5AEMVJF66Q9ASUAAJG)
+150359 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: MM0BI9OKAM0MDFM2T49KQNSTDBVV4KQNSO5AEMVJF66Q9ASUAAJG)
+156298 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: 2HLU2BT39TNI0JO99EUG0O5JSFVV4KQNSO5AEMVJF66Q9ASUAAJG)
+[OVERALL], RunTime(ms), 173768
+[OVERALL], Throughput(ops/sec), 5.754799502785323
+[TOTAL_GCS_Copy], Count, 74
+[TOTAL_GC_TIME_Copy], Time(ms), 72
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.04143455642005433
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 74
+[TOTAL_GC_TIME], Time(ms), 72
+[TOTAL_GC_TIME_%], Time(%), 0.04143455642005433
+[SCAN-FAILED], Operations, 7
+[SCAN-FAILED], AverageLatency(us), 4097462.8571428573
+[SCAN-FAILED], MinLatency(us), 3641344
+[SCAN-FAILED], MaxLatency(us), 4624383
+[SCAN-FAILED], 95thPercentileLatency(us), 4624383
+[SCAN-FAILED], 99thPercentileLatency(us), 4624383
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2.0
+[CLEANUP], MinLatency(us), 2
+[CLEANUP], MaxLatency(us), 2
+[CLEANUP], 95thPercentileLatency(us), 2
+[CLEANUP], 99thPercentileLatency(us), 2
+[INSERT], Operations, 51
+[INSERT], AverageLatency(us), 6524.058823529412
+[INSERT], MinLatency(us), 4086
+[INSERT], MaxLatency(us), 25711
+[INSERT], 95thPercentileLatency(us), 11871
+[INSERT], 99thPercentileLatency(us), 15815
+[INSERT], Return=OK, 51
+[SCAN], Operations, 942
+[SCAN], AverageLatency(us), 152286.2101910828
+[SCAN], MinLatency(us), 2554
+[SCAN], MaxLatency(us), 4481023
+[SCAN], 95thPercentileLatency(us), 635391
+[SCAN], 99thPercentileLatency(us), 4081663
+[SCAN], Return=OK, 942
+[SCAN], Return=ERROR, 7

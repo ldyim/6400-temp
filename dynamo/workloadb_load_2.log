@@ -1,0 +1,48 @@
+0    [Thread-1] INFO  site.ycsb.db.DynamoDBClient  -dynamodb connection created with http://dynamodb.us-east-2.amazonaws.com
+6522 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: J9O8NSSTLSDIH5Q615OFDTN8C3VV4KQNSO5AEMVJF66Q9ASUAAJG)
+11488 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: Q0HA3JENKNTFK2MH0S1RCN514RVV4KQNSO5AEMVJF66Q9ASUAAJG)
+16733 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: AUVLNVSC1POGU4U50JRPG4FO5BVV4KQNSO5AEMVJF66Q9ASUAAJG)
+21487 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: 3KPBIK6M43RMER5O3FP1PIPTUVVV4KQNSO5AEMVJF66Q9ASUAAJG)
+48273 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: K5MH16H29HGUP0O93UFOLF6LLRVV4KQNSO5AEMVJF66Q9ASUAAJG)
+56799 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: TPDN2CJKHFM86PH2PDPMBG79U3VV4KQNSO5AEMVJF66Q9ASUAAJG)
+61763 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: UVSME94EV3QMFE5KVP9QMKFQAVVV4KQNSO5AEMVJF66Q9ASUAAJG)
+87292 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: R8SMKVJEBU8N79PUQ20Q93IDDRVV4KQNSO5AEMVJF66Q9ASUAAJG)
+98635 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: PO7M9L5PM9T69GBTDJTK7PBGEBVV4KQNSO5AEMVJF66Q9ASUAAJG)
+103298 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: R292F8JBMEJ3D0PIH3RC846D4RVV4KQNSO5AEMVJF66Q9ASUAAJG)
+119240 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: C3SILUUL3V47RKC7H9BOB0BKK3VV4KQNSO5AEMVJF66Q9ASUAAJG)
+130075 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: 4R7M6F02C553QDICMDIK33TAIRVV4KQNSO5AEMVJF66Q9ASUAAJG)
+137046 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: CROCV03GQF194BSNK9SOK7T11VVV4KQNSO5AEMVJF66Q9ASUAAJG)
+148519 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: 9KCC11DNTVCIQ67G86G9RU06M7VV4KQNSO5AEMVJF66Q9ASUAAJG)
+155238 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: QGB36KMJ3IK9UPKM6QG65P0HM3VV4KQNSO5AEMVJF66Q9ASUAAJG)
+175246 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: 364MNJKETM2G8LSPUU3PN99QN3VV4KQNSO5AEMVJF66Q9ASUAAJG)
+[OVERALL], RunTime(ms), 181111
+[OVERALL], Throughput(ops/sec), 5.521475780046491
+[TOTAL_GCS_Copy], Count, 30
+[TOTAL_GC_TIME_Copy], Time(ms), 47
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.025950936166218505
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 30
+[TOTAL_GC_TIME], Time(ms), 47
+[TOTAL_GC_TIME_%], Time(%), 0.025950936166218505
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2.0
+[CLEANUP], MinLatency(us), 2
+[CLEANUP], MaxLatency(us), 2
+[CLEANUP], 95thPercentileLatency(us), 2
+[CLEANUP], 99thPercentileLatency(us), 2
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 100548.227
+[INSERT], MinLatency(us), 4078
+[INSERT], MaxLatency(us), 4313087
+[INSERT], 95thPercentileLatency(us), 22799
+[INSERT], 99thPercentileLatency(us), 3762175
+[INSERT], Return=OK, 1000
+[INSERT], Return=ERROR, 16
+[INSERT-FAILED], Operations, 16
+[INSERT-FAILED], AverageLatency(us), 3971136.0
+[INSERT-FAILED], MinLatency(us), 3790848
+[INSERT-FAILED], MaxLatency(us), 4202495
+[INSERT-FAILED], 95thPercentileLatency(us), 4136959
+[INSERT-FAILED], 99thPercentileLatency(us), 4202495
