@@ -1,0 +1,33 @@
+0    [Thread-1] INFO  site.ycsb.db.DynamoDBClient  -dynamodb connection created with http://dynamodb.us-east-2.amazonaws.com
+5266 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: KN0LL60D7QQNQPEN5AS6TNICPJVV4KQNSO5AEMVJF66Q9ASUAAJG)
+[OVERALL], RunTime(ms), 71310
+[OVERALL], Throughput(ops/sec), 14.023278642546627
+[TOTAL_GCS_Copy], Count, 24
+[TOTAL_GC_TIME_Copy], Time(ms), 43
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.060300098162950504
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 24
+[TOTAL_GC_TIME], Time(ms), 43
+[TOTAL_GC_TIME_%], Time(%), 0.060300098162950504
+[READ], Operations, 999
+[READ], AverageLatency(us), 66410.21221221221
+[READ], MinLatency(us), 2698
+[READ], MaxLatency(us), 4102143
+[READ], 95thPercentileLatency(us), 9151
+[READ], 99thPercentileLatency(us), 1786879
+[READ], Return=OK, 999
+[READ], Return=ERROR, 1
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2.0
+[CLEANUP], MinLatency(us), 2
+[CLEANUP], MaxLatency(us), 2
+[CLEANUP], 95thPercentileLatency(us), 2
+[CLEANUP], 99thPercentileLatency(us), 2
+[READ-FAILED], Operations, 1
+[READ-FAILED], AverageLatency(us), 3765248.0
+[READ-FAILED], MinLatency(us), 3764224
+[READ-FAILED], MaxLatency(us), 3766271
+[READ-FAILED], 95thPercentileLatency(us), 3766271
+[READ-FAILED], 99thPercentileLatency(us), 3766271
