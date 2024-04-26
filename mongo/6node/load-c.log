@@ -1,0 +1,31 @@
+Loading workload...
+Starting test.
+2024-04-10 18:04:05:830 0 sec: 0 operations; est completion in 0 second 
+mongo client connection created with mongodb://10.142.0.4:27018/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2024-04-10 18:04:11:901 6 sec: 1000 operations; 161.63 current ops/sec; [CLEANUP: Count=1, Max=3749, Min=3748, Avg=3749, 90=3749, 99=3749, 99.9=3749, 99.99=3749] [INSERT: Count=1000, Max=251135, Min=2884, Avg=5172.53, 90=6411, 99=8783, 99.9=12975, 99.99=251135] 
+[OVERALL], RunTime(ms), 6210
+[OVERALL], Throughput(ops/sec), 161.0305958132045
+[TOTAL_GCS_G1_Young_Generation], Count, 4
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 44
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.7085346215780999
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 4
+[TOTAL_GC_TIME], Time(ms), 44
+[TOTAL_GC_TIME_%], Time(%), 0.7085346215780999
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 3749.0
+[CLEANUP], MinLatency(us), 3748
+[CLEANUP], MaxLatency(us), 3749
+[CLEANUP], 95thPercentileLatency(us), 3749
+[CLEANUP], 99thPercentileLatency(us), 3749
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 5172.526
+[INSERT], MinLatency(us), 2884
+[INSERT], MaxLatency(us), 251135
+[INSERT], 95thPercentileLatency(us), 6879
+[INSERT], 99thPercentileLatency(us), 8783
+[INSERT], Return=OK, 1000
+

@@ -1,0 +1,37 @@
+Loading workload...
+Starting test.
+2024-04-23 16:34:54:617 0 sec: 0 operations; est completion in 0 second 
+mongo client connection created with mongodb://10.142.0.4:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2024-04-23 16:34:57:648 3 sec: 1000 operations; 317.46 current ops/sec; [READ: Count=950, Max=158207, Min=1064, Avg=2085.45, 90=2479, 99=5767, 99.9=12143, 99.99=158207] [CLEANUP: Count=1, Max=3317, Min=3316, Avg=3317, 90=3317, 99=3317, 99.9=3317, 99.99=3317] [UPDATE: Count=50, Max=14655, Min=3470, Avg=4612.06, 90=5687, 99=14655, 99.9=14655, 99.99=14655] 
+[OVERALL], RunTime(ms), 3152
+[OVERALL], Throughput(ops/sec), 317.25888324873097
+[TOTAL_GCS_G1_Young_Generation], Count, 4
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 44
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 1.3959390862944163
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 4
+[TOTAL_GC_TIME], Time(ms), 44
+[TOTAL_GC_TIME_%], Time(%), 1.3959390862944163
+[READ], Operations, 950
+[READ], AverageLatency(us), 2085.4505263157894
+[READ], MinLatency(us), 1064
+[READ], MaxLatency(us), 158207
+[READ], 95thPercentileLatency(us), 3121
+[READ], 99thPercentileLatency(us), 5767
+[READ], Return=OK, 950
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 3317.0
+[CLEANUP], MinLatency(us), 3316
+[CLEANUP], MaxLatency(us), 3317
+[CLEANUP], 95thPercentileLatency(us), 3317
+[CLEANUP], 99thPercentileLatency(us), 3317
+[UPDATE], Operations, 50
+[UPDATE], AverageLatency(us), 4612.06
+[UPDATE], MinLatency(us), 3470
+[UPDATE], MaxLatency(us), 14655
+[UPDATE], 95thPercentileLatency(us), 5791
+[UPDATE], 99thPercentileLatency(us), 14655
+[UPDATE], Return=OK, 50

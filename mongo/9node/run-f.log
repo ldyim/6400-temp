@@ -1,0 +1,44 @@
+Loading workload...
+Starting test.
+2024-04-23 16:40:56:019 0 sec: 0 operations; est completion in 0 second 
+mongo client connection created with mongodb://10.142.0.4:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2024-04-23 16:41:01:499 5 sec: 1000 operations; 179.18 current ops/sec; [READ: Count=1000, Max=144383, Min=1209, Avg=2206.44, 90=2645, 99=5015, 99.9=12319, 99.99=144383] [READ-MODIFY-WRITE: Count=534, Max=26287, Min=4428, Avg=6450.89, 90=7883, 99=12735, 99.9=17295, 99.99=26287] [CLEANUP: Count=1, Max=4419, Min=4416, Avg=4418, 90=4419, 99=4419, 99.9=4419, 99.99=4419] [UPDATE: Count=534, Max=19647, Min=2928, Avg=4348.64, 90=5363, 99=7423, 99.9=12319, 99.99=19647] 
+[OVERALL], RunTime(ms), 5582
+[OVERALL], Throughput(ops/sec), 179.14725904693657
+[TOTAL_GCS_G1_Young_Generation], Count, 5
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 53
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.9494804729487639
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 5
+[TOTAL_GC_TIME], Time(ms), 53
+[TOTAL_GC_TIME_%], Time(%), 0.9494804729487639
+[READ], Operations, 1000
+[READ], AverageLatency(us), 2206.441
+[READ], MinLatency(us), 1209
+[READ], MaxLatency(us), 144383
+[READ], 95thPercentileLatency(us), 3111
+[READ], 99thPercentileLatency(us), 5015
+[READ], Return=OK, 1000
+[READ-MODIFY-WRITE], Operations, 534
+[READ-MODIFY-WRITE], AverageLatency(us), 6450.89138576779
+[READ-MODIFY-WRITE], MinLatency(us), 4428
+[READ-MODIFY-WRITE], MaxLatency(us), 26287
+[READ-MODIFY-WRITE], 95thPercentileLatency(us), 8671
+[READ-MODIFY-WRITE], 99thPercentileLatency(us), 12735
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 4418.0
+[CLEANUP], MinLatency(us), 4416
+[CLEANUP], MaxLatency(us), 4419
+[CLEANUP], 95thPercentileLatency(us), 4419
+[CLEANUP], 99thPercentileLatency(us), 4419
+[UPDATE], Operations, 534
+[UPDATE], AverageLatency(us), 4348.63670411985
+[UPDATE], MinLatency(us), 2928
+[UPDATE], MaxLatency(us), 19647
+[UPDATE], 95thPercentileLatency(us), 5979
+[UPDATE], 99thPercentileLatency(us), 7423
+[UPDATE], Return=OK, 534
+
