@@ -1,0 +1,41 @@
+0    [Thread-1] INFO  site.ycsb.db.DynamoDBClient  -dynamodb connection created with http://dynamodb.us-east-2.amazonaws.com
+46690 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: RHBH7PHDR9NE6QUHEACTSG4E1BVV4KQNSO5AEMVJF66Q9ASUAAJG)
+77675 [Thread-1] ERROR site.ycsb.db.DynamoDBClient  -com.amazonaws.services.dynamodbv2.model.ProvisionedThroughputExceededException: The level of configured provisioned throughput for the table was exceeded. Consider increasing your provisioning level with the UpdateTable API. (Service: AmazonDynamoDBv2; Status Code: 400; Error Code: ProvisionedThroughputExceededException; Request ID: LGS2H6TR7P94U0GNE400MRSNKRVV4KQNSO5AEMVJF66Q9ASUAAJG)
+[OVERALL], RunTime(ms), 98074
+[OVERALL], Throughput(ops/sec), 10.196382323551603
+[TOTAL_GCS_Copy], Count, 24
+[TOTAL_GC_TIME_Copy], Time(ms), 42
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.042824805758916736
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 24
+[TOTAL_GC_TIME], Time(ms), 42
+[TOTAL_GC_TIME_%], Time(%), 0.042824805758916736
+[READ], Operations, 503
+[READ], AverageLatency(us), 4327.228628230616
+[READ], MinLatency(us), 2804
+[READ], MaxLatency(us), 20287
+[READ], 95thPercentileLatency(us), 10367
+[READ], 99thPercentileLatency(us), 16543
+[READ], Return=OK, 503
+[UPDATE-FAILED], Operations, 2
+[UPDATE-FAILED], AverageLatency(us), 3900416.0
+[UPDATE-FAILED], MinLatency(us), 3710976
+[UPDATE-FAILED], MaxLatency(us), 4089855
+[UPDATE-FAILED], 95thPercentileLatency(us), 4089855
+[UPDATE-FAILED], 99thPercentileLatency(us), 4089855
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2.0
+[CLEANUP], MinLatency(us), 2
+[CLEANUP], MaxLatency(us), 2
+[CLEANUP], 95thPercentileLatency(us), 2
+[CLEANUP], 99thPercentileLatency(us), 2
+[UPDATE], Operations, 495
+[UPDATE], AverageLatency(us), 175437.11515151514
+[UPDATE], MinLatency(us), 5000
+[UPDATE], MaxLatency(us), 4272127
+[UPDATE], 95thPercentileLatency(us), 1598463
+[UPDATE], 99thPercentileLatency(us), 3969023
+[UPDATE], Return=OK, 495
+[UPDATE], Return=ERROR, 2
